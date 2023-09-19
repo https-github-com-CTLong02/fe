@@ -1,0 +1,26 @@
+.highcharts-credits {
+    display: none;
+}
+.highcharts-axis.highcharts-yaxis {
+    display: none;
+}
+.highcharts-legend-item > span {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.pie-chart .highcharts-background {
+    fill: #f9fbff !important;
+}
+.highcharts-legend-item span {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+        Droid Sans, Helvetica Neue, sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+}
+.highcharts-spline-series text {
+    font-weight: 700 !important;
+}
+.highcharts-xaxis-labels text {
+    font-weight: 700 !important;
+}

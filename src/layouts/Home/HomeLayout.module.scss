@@ -1,0 +1,61 @@
+.btnSignIn {
+    color: #e13853;
+    background: transparent;
+    border: 1px solid #e13853;
+}
+.btnSignUp {
+    color: #fff;
+    background: #e13853;
+    border: 1px solid #e13853;
+}
+.active {
+    color: #e13853 !important;
+}
+.menu {
+    min-width: 200px;
+    .item {
+        padding: 8px 12px;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #4a5677;
+        &:hover {
+            background-color: transparent;
+        }
+    }
+}
+.btnSignOut {
+    width: 100%;
+    border: 1px solid #dbe3ef;
+    background-color: #f2f3f7;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4a5677;
+}
+@media (max-width: 991.5px) {
+    .navCollapse {
+        position: absolute;
+        width: 240px;
+        top: 60px;
+        right: 0;
+        padding: 8px 12px;
+        background: #fff;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+        border-radius: 6px;
+    }
+    .navContainer {
+        flex-direction: column !important;
+        align-items: start !important;
+        margin: 0 !important;
+        div {
+            width: 100%;
+            padding: 8px 0 !important;
+            &:hover {
+                cursor: pointer;
+                background: #e7f1f7f4;
+            }
+        }
+    }
+    .btns {
+        margin-top: 10px;
+    }
+}

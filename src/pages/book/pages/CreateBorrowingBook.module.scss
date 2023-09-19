@@ -1,0 +1,49 @@
+.form {
+    label {
+        font-size: 1.1rem;
+        color: #3f4254;
+        font-weight: 500;
+    }
+    input,
+    select {
+        background: #fff !important;
+        padding: 8px 12px;
+        border-radius: 6px;
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 10px 0px;
+        color: #000;
+        &:focus {
+            box-shadow: none;
+        }
+        &:valid {
+            background: none;
+            border: 1px solid #ced4da;
+            &:focus {
+                border: 1px solid #86b7fe;
+            }
+        }
+        &:invalid {
+            border: 1px solid #ced4da;
+            background: none;
+            &:focus {
+                border: 1px solid #86b7fe;
+            }
+        }
+    }
+}
+.btnAdd {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #165dc8;
+    background: #165dc8;
+    padding: 8px 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 8px #ccd4ff;
+    color: #fff;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}

@@ -1,0 +1,20 @@
+.banner {
+    background-image: url('../../assets/images/bg_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    h3,
+    p {
+        color: #18214d;
+    }
+    h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 2.4rem;
+    }
+    p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        font-weight: 500;
+    }
+}

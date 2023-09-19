@@ -1,0 +1,30 @@
+.Login {
+    background: url('../../assets/images/backGround.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 991.5px) {
+    .navCollapse {
+        position: absolute;
+        width: 240px;
+        top: 60px;
+        right: 0;
+        padding: 16px 12px;
+        background: #fff;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+        border-radius: 6px;
+    }
+    .navContainer {
+        flex-direction: column !important;
+        align-items: start !important;
+        margin: 0 !important;
+        div {
+            width: 100%;
+            padding: 8px !important;
+            &:hover {
+                cursor: pointer;
+                background: #e7f1f7f4;
+            }
+        }
+    }
+}

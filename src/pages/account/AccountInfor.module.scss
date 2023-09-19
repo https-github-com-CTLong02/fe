@@ -1,0 +1,20 @@
+.formInfor {
+    label {
+        color: rgb(74, 86, 119);
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    input {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        font-weight: 500;
+        color: rgb(74, 86, 119);
+        border-radius: 4px;
+        background-color: rgb(242, 243, 247);
+        border: 0.8px solid rgb(235, 237, 243);
+        &:disabled {
+            border: none;
+        }
+    }
+}

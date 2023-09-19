@@ -1,0 +1,68 @@
+.contact {
+    padding: 0 20px;
+    .hotline {
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #18214d;
+        }
+        p {
+            font-size: 16px;
+            color: #9ea5bd;
+            font-size: 1.2rem;
+            font-family: 500;
+        }
+        .btnHotline {
+            color: #fff;
+            width: 100%;
+            padding: 10px 20px;
+            font-size: 24px;
+            font-weight: 700;
+            background-color: #00ba1f;
+            border: none;
+            border-radius: 4px;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+        p,
+        .btnHotline {
+            margin-top: 1rem;
+        }
+    }
+    .infor {
+        .formGroup {
+            width: 100%;
+            label {
+                color: #18214d;
+                font-size: 16px;
+                font-weight: 500;
+            }
+            input {
+                color: #18214d;
+                padding: 10px 20px;
+                font-size: 16px;
+                font-family: 500;
+                border-radius: 6px;
+            }
+        }
+        .btnSubmit {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+            background-color: #e13853;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-weight: 600;
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+        .btnSubmit,
+        .formGroup {
+            margin-top: 10px;
+        }
+    }
+}

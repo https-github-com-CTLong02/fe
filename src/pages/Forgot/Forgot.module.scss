@@ -1,0 +1,131 @@
+.forgot {
+    .headerForm {
+        padding: 20px;
+        background: #fff;
+        border-bottom: 1px solid #dbe3ef;
+        border-radius: 10px 10px 0 0;
+        h1 {
+            color: #18214d;
+            font-size: 1.6rem;
+            text-align: center;
+            font-weight: 600;
+        }
+        p {
+            color: #313c59;
+            font-size: 1rem;
+            text-align: center;
+            font-weight: 600;
+            a {
+                font-size: 1.2rem;
+                margin-left: 10px;
+                color: #e13853;
+                text-decoration: none;
+            }
+        }
+    }
+    .btn {
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid #165dc8;
+        padding: 8px 10px;
+        font-size: 14px;
+        margin-bottom: 10px;
+        &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+    }
+    .form {
+        .bodyForm {
+            background-color: #f3f6f9;
+            filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.05));
+            padding: 10px 30px;
+            .formGroup {
+                label {
+                    font-size: 1rem;
+                    color: #3f4254;
+                    font-weight: 400;
+                }
+                input {
+                    background: #fff !important;
+                    padding: 10px 20px;
+                    border-radius: 6px;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    margin: 10px 0px;
+                    color: #000;
+                    &:focus {
+                        box-shadow: none;
+                    }
+                    &:valid {
+                        background: none;
+                        border: 1px solid #ced4da;
+                        &:focus {
+                            border: 1px solid #86b7fe;
+                        }
+                    }
+                    &:invalid {
+                        border: 1px solid #ced4da;
+                        background: none;
+                        &:focus {
+                            border: 1px solid #86b7fe;
+                        }
+                    }
+                }
+                .feedback {
+                    font-size: 1rem !important;
+                    font-weight: 400 !important;
+                }
+            }
+            .show {
+                position: absolute;
+                right: 20px;
+                bottom: 10px;
+                &:hover {
+                    opacity: 0.8;
+                    cursor: pointer;
+                }
+            }
+            .formCheck {
+                input {
+                    border-color: rgb(46, 98, 233);
+                    &:valid:checked {
+                        background-color: rgb(46, 98, 233);
+                    }
+                    &:valid:focus {
+                        box-shadow: none;
+                    }
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+                label {
+                    color: #313c59 !important;
+                    font-size: 1rem;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+    .suggestSingUp {
+        background: #fff;
+        padding: 20px;
+        border-radius: 0 0 10px 10px;
+        border-top: 1px solid #e4e6ef;
+        .btnSubmit {
+            @extend .btn;
+            box-shadow: 0px 4px 8px #ccd4ff;
+            color: #fff;
+        }
+        .btnSignUp {
+            @extend .btn;
+            color: #2e8fe9;
+            border: 1px solid #2e8fe9;
+            background: transparent;
+            margin-top: 10px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.inputSearch {
+    &:focus-visible {
+        outline-width: 0;
+    }
+}
+.table {
+    td {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #3f4254 !important;
+    }
+}

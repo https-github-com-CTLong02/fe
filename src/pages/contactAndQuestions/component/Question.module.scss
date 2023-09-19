@@ -1,0 +1,36 @@
+.question {
+    min-height: 700px;
+    .search {
+        position: relative;
+        .iconSearch {
+            position: absolute;
+            font-size: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 20px;
+        }
+        .inputSearch {
+            width: 100%;
+            padding: 20px 50px;
+            border-radius: 40px;
+            background-color: #f9fbff;
+            border: 1px solid #dbe3ef;
+            outline: none;
+            &:focus {
+                border: 1px solid #e13853;
+            }
+        }
+    }
+    .listQuestion {
+        padding: 40px 10px;
+        .collapse {
+            border: 1px solid #dbe3ef;
+            background: #f9fbff;
+            .answer {
+                color: #18214d;
+                font-size: 1.47rem;
+                font-weight: 500;
+            }
+        }
+    }
+}

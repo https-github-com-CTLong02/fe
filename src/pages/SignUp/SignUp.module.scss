@@ -1,0 +1,135 @@
+.signUp {
+    .headerForm {
+        background-color: #fff;
+        border-radius: 10px 10px 0 0;
+        padding: 20px;
+        border-bottom: 1px solid #dbe3ef;
+        h1 {
+            font-size: 1.6rem;
+            color: #18214d;
+            text-align: center;
+            font-weight: 600;
+        }
+        p {
+            color: #313c59;
+            font-size: 1rem;
+            text-align: center;
+            font-weight: 600;
+            a {
+                font-size: 1.2rem;
+                margin-left: 10px;
+                color: #e13853;
+                text-decoration: none;
+            }
+        }
+    }
+    .option {
+        padding: 10px 20px;
+        background-color: #fff;
+        color: #313c59;
+        h4 {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        label {
+            color: rgb(74, 86, 119);
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 2rem;
+        }
+        input {
+            font-size: 1.6rem;
+            &:hover {
+                cursor: pointer;
+            }
+            &:checked {
+                background-color: #e13853;
+                border-color: #e13853;
+                box-shadow: none;
+            }
+        }
+    }
+    .form {
+        .bodyForm {
+            background-color: #f3f6f9;
+            padding: 10px 20px;
+            label {
+                font-size: 1rem;
+                color: #3f4254;
+            }
+            input {
+                background: #fff !important;
+                padding: 10px 20px;
+                border-radius: 4px;
+                font-size: 1rem;
+                margin: 10px 0px;
+                color: rgb(74, 86, 119);
+                font-weight: 500;
+                &:valid {
+                    background: none;
+                    border: 1px solid #ced4da;
+                    &:focus {
+                        border: 1px solid #86b7fe;
+                        box-shadow: none;
+                    }
+                }
+                &:invalid {
+                    background: none;
+                    border: 1px solid #ced4da;
+                    &:focus {
+                        border: 1px solid #86b7fe;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+        .finish {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 0 0 10px 10px;
+            .agree {
+                input {
+                    box-shadow: none;
+                    border-color: #e13853;
+                    margin-right: 10px;
+                    &:valid {
+                        background-color: #e13853;
+                        border: 1px solid #e13853;
+                    }
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+                label {
+                    color: rgb(49, 60, 89);
+                    font-size: 1rem;
+                    font-weight: 500;
+                    padding: 8px 0;
+                    a {
+                        text-decoration: none;
+                        color: #e13853;
+                        opacity: 0.8;
+                        &:hover {
+                            cursor: pointer;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .btnSubmit {
+                background: #3ace5a;
+                border: 1px solid #2ab448;
+                width: 100%;
+                padding: 10px 20px;
+                border-radius: 4px;
+                font-size: 16px;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+    .starRequire {
+        color: #e13853;
+    }
+}

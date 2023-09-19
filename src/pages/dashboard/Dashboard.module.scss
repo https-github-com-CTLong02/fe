@@ -1,0 +1,41 @@
+.dashboard {
+    background: #eff1f5;
+    min-height: calc(100vh - 84px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.options {
+    .toggle {
+        color: #3f4254;
+        padding: 10px;
+        border: 1px solid #dbe3ef;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+        font-size: 1.2rem;
+        font-weight: 500;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .menuOption {
+        border-radius: 10px;
+        padding: 10px 0;
+        left: auto !important;
+        right: 0 !important;
+        .itemOption {
+            padding: 4px 20px;
+            width: 200px;
+            font-size: 16px;
+            color: #3f4254;
+            font-weight: 500;
+            &:hover {
+                cursor: pointer;
+                background: #f3f6f9;
+            }
+        }
+        .itemOption.active {
+            background: #f3f6f9;
+        }
+    }
+}
